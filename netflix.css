@@ -838,7 +838,37 @@ footer{
     .section5-button span {
         font-size: 18px;
     }
-
+    .box1,
+    .box2,
+    .box3,
+    .box4{
+    position: relative;
+}
+    .box1i{
+    position: absolute;
+    /* transform: translateY(70px)
+    translateX(10px); */
+}
+    .box2i{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    width: 50px;
+}
+    .box3i{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    /* transform: translateY(-20px)
+    translateX(360px); */
+    width: 50px;
+}
+    .box4i{
+    position: absolute;
+    /* transform: translateY(-30px)
+    translateX(360px); */
+    width: 50px;
+}
 
     footer {
         margin: auto 15px;
