@@ -848,12 +848,14 @@ footer{
     position: absolute;
     /* transform: translateY(70px)
     translateX(10px); */
+    display: none;
 }
     .box2i{
     position: absolute;
     top: 20px;
     right: 15px;
     width: 50px;
+    display: none;
 }
     .box3i{
     position: absolute;
@@ -862,12 +864,14 @@ footer{
     /* transform: translateY(-20px)
     translateX(360px); */
     width: 50px;
+    display: none;
 }
     .box4i{
     position: absolute;
     /* transform: translateY(-30px)
     translateX(360px); */
     width: 50px;
+    display: none;
 }
 
     footer {
