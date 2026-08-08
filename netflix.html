@@ -1,39 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./netflix.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="main-header">
-           <a class="header-content" href="">
+        <a class="header-content" href="">
             <img class="gift-icon" src="./netfliximgs/gift (2)-recolored.png" alt="">
             <p class="header-text">New to Netflix?Try 14 days for ₦0.</p>
-           </a>
+        </a>
     </header>
     <div class="top-flex">
-        <img class="netflix-logo" src="./netfliximgs/imgi_1_AAAAAZge2REfWoSoWRs31izjUdgihldMUslSHTdfz-1aT4vVrgJuVByU92G8wIrBkwULJHWjM1khpzW0xWndigQFYViKFpy-pM6NZFnTKEPkpf9hcdSzCyzqBbcouyIpmgVLbodhaeyqCXaS.svg" alt="">
+        <img class="netflix-logo"
+            src="./netfliximgs/imgi_1_AAAAAZge2REfWoSoWRs31izjUdgihldMUslSHTdfz-1aT4vVrgJuVByU92G8wIrBkwULJHWjM1khpzW0xWndigQFYViKFpy-pM6NZFnTKEPkpf9hcdSzCyzqBbcouyIpmgVLbodhaeyqCXaS.svg"
+            alt="">
         <button class="signin-button">
             <span>Sign In</span>
         </button>
     </div>
     <div class="section1">
-        <h1 class="section1-h1">Unlimited movies, TV 
-            <br>shows, and more</h1>
+        <h1 class="section1-h1">Unlimited movies, TV
+            <br>shows, and more
+        </h1>
         <p class="section1-price">Plans start at ₦2,500. Cancel anytime.</p>
         <h3 class="section1-h3">Ready to watch? Enter your email to start your membership.</h3>
         <div class="section1-inputs">
             <input class="section1-email" type="email" placeholder="Email address">
             <button class="section1-button">
-               <div class="section1-button-content">
-                <span>Try 14 days for ₦0</span>
-                <img class="section1-arrow" src="./netfliximgs/arrow.png" alt="">
-               </div>
+                <div class="section1-button-content">
+                    <span>Try 14 days for ₦0</span>
+                    <img class="section1-arrow" src="./netfliximgs/arrow.png" alt="">
+                </div>
             </button>
         </div>
         <p class="section1-footer">New members only. Terms below.</p>
     </div>
+    <div class="curve"></div>
+    <div class="section2">
+        <div class="section2-head">
+            <h2 class="section2-h2">Trending Now</h2>
+            <ul class="trendcards">
+                <li class="bgspan card1">
+                    <span class="numspan num1">1</span>
+                </li>
+                <li class="bgspan card2">
+                    <span class="numspan num2">2</span>
+                </li>
+                <li class="bgspan card3">
+                    <span class="numspan num3">3</span>
+                </li>
+                <li class="bgspan card4">
+                    <span class="numspan num4">4</span>
+                </li>
+                <li class="bgspan card5">
+                    <span class="numspan num5">5</span>
+                </li>
+                <li class="bgspan card6">
+                    <span class="numspan num6">6</span>
+                </li>
+                <li class="bgspan card7">
+                    <span class="numspan num7">7</span>
+                </li>
+                <li class="bgspan card8">
+                    <span class="numspan num8">8</span>
+                </li>
+                <li class="bgspan card9">
+                    <span class="numspan num9">9</span>
+                </li>
+                <li class="bgspan card10">
+                    <span class="numspan num10">10</span>
+                </li>
+            </ul>
+        </div>
+        <div class="section3">
+            <h2 class="section3-h2">More Reasons to Join</h2>
+            <div class="section3-minisec">
+                <div class="minisec box1">
+                    <h3 class="sec3h3 box1h3">Enjoy on your TV</h3>
+                    <p class="sec3p box1p">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players,
+                        and more.</p>
+                    <img class="sec3i box1i" src="./netfliximgs/download (8).svg" alt="">
+                </div>
+                <div class="minisec box2">
+                    <h3 class="sec3h3 box2h3">Download your shows to watch offline</h3>
+                    <p class="sec3p box2p">Save your favorites easily and always have something to watch.</p>
+                    <img class="sec3i box2i" src="./netfliximgs/download (7).svg" alt="">
+                </div>
+                <div class="minisec box3">
+                    <h3 class="sec3h3 box3h3">Watch everywhere</h3>
+                    <p class="sec3p box3p">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                    </p>
+                    <img class="sec3i box3i" src="./netfliximgs/download (6).svg" alt="">
+                </div>
+                <div class="minisec box4">
+                    <h3 class="sec3h3 box4h3">Create profiles for kids</h3>
+                    <p class="sec3p box4p">Send kids on adventures with their favorite characters in a space made just
+                        for them — free with your membership.</p>
+                    <img class="sec3i box4i" src="./netfliximgs/download (5).svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="section4">
+            <h2 class="section4-h2">Frequently Asked Questions</h2>
+            <div class="accordion" id="accordionExample">
+
+                <!-- 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            What is Netflix?
+                        </button>
+                    </h2>
+
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+                            Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
+                            anime, documentaries, and more on thousands of internet-connected devices.
+                            <p>You can watch as much as you want, whenever you want without a single commercial – all
+                                for one low monthly price. There's always something new to discover and new TV shows and
+                                movies are added every week!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How much does Netflix cost?
+                        </button>
+                    </h2>
+
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+                            New members can try 14 days of Netflix for ₦0. After the free trial ends, your plan will
+                            automatically renew at the regular price depending on the plan you select. Plans range from
+                            ₦2,500 to ₦8,500.
+                            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device. No extra
+                                costs, cancel anytime.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Where can I watch?
+                        </button>
+                    </h2>
+
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+                            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                            netflix.com from your personal computer or on any internet-connected device that offers the
+                            Netflix app, including smart TVs, smartphones, tablets, streaming media players and game
+                            consoles.
+                            <p>You can also download your favorite shows with the iOS or Android app. Use downloads to
+                                watch while you're on the go and without an internet connection. Take Netflix with you
+                                anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            How do I cancel?
+                        </button>
+                    </h2>
+
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+                            Netflix is flexible. You can easily cancel your account online in two clicks. There are no
+                            cancellation fees – start or stop your account anytime.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            What can I watch on Netflix?
+                        </button>
+                    </h2>
+
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+                            Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+                            award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Is Netflix good for kids?
+                        </button>
+                    </h2>
+
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+                            The Netflix Kids experience is included in your membership to give parents control while
+                            kids enjoy family-friendly TV shows and movies in their own space.
+                            <p>Kids profiles come with PIN-protected parental controls that let you restrict the
+                                maturity rating of content kids can watch and block specific titles you don’t want kids
+                                to see.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="section5">
+                <h3 class="section5-h3">Ready to watch? Enter your email to start your membership.</h3>
+                <div class="section5-inputs">
+                    <input class="section5-email" type="email" placeholder="Email address">
+                    <button class="section5-button">
+                        <div class="section5-button-content">
+                            <span>Try 14 days for ₦0</span>
+                            <img class="section5-arrow" src="./netfliximgs/arrow.png" alt="">
+                        </div>
+                    </button>
+                </div>
+                <p class="section5-p">This offer is only valid for new members. This offer is non-transferrable. You
+                    agree that Netflix will charge the membership fee at the end of the free trial to your payment
+                    method and will automatically continue your membership until you cancel. Some methods of payment may
+                    not be eligible to redeem this offer.</p>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-head"><a href="">Questions? Contact us.</a></div>
+            <div class="footer-linksec">
+                <ul class="linksec lsec1">
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Investor Relations</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Speed Test</a></li>
+                </ul>
+                <ul class="linksec lsec2">
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">Cookie Preferences</a></li>
+                    <li><a href="">Legal Notices</a></li>
+                </ul>
+                <ul class="linksec lsec3">
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Ways to Watch</a></li>
+                    <li><a href="">Corporate Information</a></li>
+                    <li><a href="">Only on Netflix</a></li>
+                </ul>
+                <ul class="linksec lsec4">
+                    <li><a href="">Media Center</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <select class="lang-select" name="" id="">
+                <img src="./netfliximgs/translate-recolored.png" alt="">
+                <option value="">English</option>
+            </select>
+            <p class="footerp">Netflix Nigeria</p>
+            <span class="footerspan">This page is protected by Google reCAPTCHA to ensure you're not a bot.</span>
+        </footer>
+
+    </div>
+
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
 </html>
